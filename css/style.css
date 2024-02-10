@@ -28,28 +28,39 @@
     src: url(../asset/Inter-Black.ttf);
 }
 
-* {
+@font-face {
+    font-family: 'MonaSans-ExtraLight';
+    src: url(../asset/MonaSans-ExtraLight.otf);
+}
+
+@font-face {
+    font-family: 'MonaSans-Regular';
+    src: url(../asset/MonaSans-Regular.otf);
+}
+*{
     padding: 0;
     margin: 0;
     min-height: 3em;
 }
 
-body {
+body{
     display: flex;
     flex-wrap: wrap;
-    font-family: 'Inter Regular', 'sans-serif';
+    font-family: 'MonaSans-Regular', 'sans-serif';
     font-size: 22px;
 }
 
-header {
+/* Header ---------------- */
+
+header{
     padding-top: 1em;
     display: flex;
     justify-content: space-around;
-    background-color: red;
+    background-color: #f8f7f4;
     width: 100%;
 }
 
-header a {
+header a{
     margin-left: 1em;
     justify-content: space-around;
     flex-wrap: nowrap;
@@ -57,18 +68,79 @@ header a {
     color: black;
 }
 
-header .logo {
+header .marque{
     font-size: 28px;
-
+    
 }
 
+/* Barre de navigation ---------- */
 
-header li {
+.search-box {
+    transition: width 0.6s, border-radius 0.6s, background 0.6s, box-shadow 0.6s;
+    /*width: 30px;*/
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background: #ebebeb;
+    margin-right: -60px;
+}
+
+.search-box+label .search-icon {
+    color: black;
+}
+
+.search-box:hover {
+    color: white;
+    background: #c8c8c8;
+    box-shadow: 0 0 0 5px #3d4752;
+}
+
+.search-box:hover+label .search-icon {
+    color: white;
+}
+
+.search-box:focus {
+    /*transition: width 0.6s cubic-bezier(0, 1.22, 0.66, 1.39), border-radius 0.6s, background 0.6s;*/
+    border: none;
+    outline: none;
+    box-shadow: none;
+    padding-left: 15px;
+    cursor: text;
+    width: 150px;
+    border-radius: auto;
+    background: #ebebeb;
+    color: black;
+}
+
+.search-box:focus+label .search-icon {
+    color: black;
+}
+
+.search-box:not(:focus) {
+    text-indent: -5000px;
+}
+
+#search-submit {
+    position: relative;
+    left: -5000px;
+}
+
+.search-icon {
+    position: relative;
+    left: -30px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Fin Barre de recherche----------------- */
+
+header li{
     list-style: none;
 }
 
 
-button {
+button{
     padding: 15px 30px 15px 30px;
     width: 160px;
     text-align: center;
@@ -78,27 +150,82 @@ button {
     border: none;
 }
 
-button a {
+button a{
     color: white;
     text-decoration: none;
     font-family: 'Inter Light';
 }
 
-nav {
+/* Nav [Hero Banner]-------------- */
+nav{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: green;
+    background-color: #f8f7f4;
     width: 100%;
+    
+}
+
+/* Main [Trouve ta paire de sneakers] ----------------- */
+
+main{
+    background-color: white;
+    width: 100%;
+}
+
+main h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+main section{
+    margin-left: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main section img{
+    width: 560px;
+    height: 400px;
+    margin-left: 2em;
+    border-radius: 25px;
+   
+    
 
 }
 
-main {
-    background-color: purple;
-    width: 100%;
+main section article{
+    
+}
+main section article div{
+    display: flex;
+    justify-content: space-around;
+
+}
+main section article div p{
+    margin-top: 15px;
+}
+main section article .logo{
+    width: 24px;
+    height: 24px;
+    margin-left: 1em;
+    
 }
 
-footer {
-    background-color: yellow;
+/* Footer--------------- */
+
+footer{
+    background: #ffda79; 
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+footer h2{
+    
+
 }
