@@ -1,9 +1,4 @@
 @font-face {
-    font-family: 'Aeonik Light';
-    src: url(../asset/AeonikProTRIAL-Light.otf);
-}
-
-@font-face {
     font-family: 'Aeonik Bold';
     src: url(../asset/AeonikProTRIAL-Bold.otf);
 }
@@ -21,6 +16,11 @@
 @font-face {
     font-family: 'Inter Regular';
     src: url(../asset/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Inter Semi-Bold';
+    src: url(../asset/Inter-SemiBold.ttf);
 }
 
 @font-face {
@@ -50,22 +50,25 @@
     padding: 0;
     margin: 0;
     min-height: 3em;
+    scroll-behavior: smooth;
 }
 
 body{
     background-color: #f8f7f4;
     display: flex;
     flex-wrap: wrap;
-    font-family: 'MonaSans-Regular', 'sans-serif';
+    font-family: 'Source Serif 4-Regular', 'MonaSans-Regular', 'sans-serif';
     font-size: 22px;
     overflow-x: hidden;
+    
 }
 
 /* Header ---------------- */
 
 header{
-    padding-top: 1em;
+    margin-top: 2em;
     display: flex;
+    font-family: 'Inter Semi-Bold';
     justify-content: space-around;
     background-color: #f8f7f4;
     width: 100%;
@@ -183,11 +186,12 @@ header li #login:hover{
 }
 button{
     padding: 15px 20px 15px 20px;
-    width: 130px;
+    width: 165px;
     text-align: center;
     background: black; 
     border-radius: 30px;
     border: none;
+    font-size: 22px;
 }
 
 button a{
@@ -250,7 +254,7 @@ article section{
     border-radius: 12px;
     padding: 30px;
     box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.4);
-    margin-bottom: 200px;
+    margin-bottom: 20px;
 
     line-height: 20px;
 }
@@ -360,14 +364,15 @@ main section img{
     height: 400px;
     margin-left: 2em;
     border-radius: 25px;
-   
+    
     
 
 }
 
-main section article{
-    
+main section article img:hover{
+    opacity: 50%;  
 }
+
 main section article div{
     display: flex;
     justify-content: space-around;
@@ -388,6 +393,19 @@ main .button-main button{
     margin-top: 5em;
     margin-bottom: 5em;
     left: 90vh;
+    padding: 15px 20px 15px 20px;
+    width: 185px;
+    text-align: center;
+    background: black; 
+    border-radius: 30px;
+    border: none;
+    font-size: 22px;
+    
+}
+
+main .button-main button:hover{
+    background:rgba(0, 0, 0, 0.70);
+
 }
 /* Footer--------------- */
 
