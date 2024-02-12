@@ -41,7 +41,7 @@ Navigation Intuitive : La navigation sur notre site est simple et intuitive.
 Design attirant : On a mis en place un design attirant et esthétique pour créer une première impression positive et qui encourage les visiteurs à explorer davantage notre site.
 
 
-Contenu Pertinent : Le contenu de notre site, y compris le catalogue de produits  sont clair et pertinent.
+Contenu Pertinent : Le contenu de notre site, y compris le catalogue de produits sont clair et pertinent.
 
 Facilité d'Achat : Les visiteurs peuvent  ajouter des articles à leur panier, passer à la caisse et finaliser leur commande en quelques étapes seulement. 
 
