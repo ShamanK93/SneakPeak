@@ -39,33 +39,33 @@
 }
 
 @font-face {
-    font-family: 'Source Serif 4-Regular' ;
+    font-family: 'Source Serif 4-Regular';
     src: url(../asset/sourceserif4/SourceSerif4-Regular.ttf);
 }
+
 @font-face {
     font-family: 'Source Serif 4-Light';
     src: url(../asset/sourceserif4/SourceSerif4-Light.ttf);
 }
-*{
+
+* {
     padding: 0;
     margin: 0;
-    min-height: 3em;
+    /*min-height: 3em;*/
     scroll-behavior: smooth;
 }
 
-body{
+body {
     background-color: #f8f7f4;
-    display: flex;
-    flex-wrap: wrap;
     font-family: 'Source Serif 4-Regular', 'MonaSans-Regular', 'sans-serif';
     font-size: 22px;
     overflow-x: hidden;
-    
+
 }
 
 /* Header ---------------- */
 
-header{
+header {
     margin-top: 2em;
     display: flex;
     font-family: 'Inter Semi-Bold';
@@ -74,33 +74,34 @@ header{
     width: 100%;
 }
 
-header a{
+header a {
     margin-left: 1em;
-    
+
     flex-wrap: nowrap;
     text-decoration: none;
     color: black;
 }
 
-header div a:hover{
+header div a:hover {
     color: rgba(0, 0, 0, 0.70);
 }
 
-header .marque{
+header .marque {
     font-size: 28px;
     font-family: 'Source Serif 4-Regular';
     margin-left: 10em;
-       
+
 }
 
 /* Barre de navigation ---------- */
 
-header form{
+header form {
     margin-left: 10em;
     z-index: 333;
-    
-    
+
+
 }
+
 .search-box {
     transition: width 0.6s, border-radius 0.6s, background 0.6s, box-shadow 0.6s;
     width: 200px;
@@ -159,54 +160,56 @@ header form{
     cursor: pointer;
 }
 
-header img{
-    
+header img {
+
     position: relative;
     bottom: 20px;
     right: 280px;
     width: 24px;
     z-index: 555;
-    
+
 }
 
 /* Fin Barre de recherche----------------- */
 
 /* Bouton Log in Register ----------------- */
 
-header li{
+header li {
     list-style: none;
 }
 
-header li a{
+header li a {
     margin-right: 1em;
 }
 
-header li #login:hover{
-    color:rgba(0, 0, 0, 0.7);
+header li #login:hover {
+    color: rgba(0, 0, 0, 0.7);
 }
-button{
+
+button {
     padding: 15px 20px 15px 20px;
     width: 165px;
     text-align: center;
-    background: black; 
+    background: black;
     border-radius: 30px;
     border: none;
     font-size: 22px;
 }
 
-button a{
+button a {
     color: white;
     text-decoration: none;
-    
+
 }
-button:hover{
-    background: rgba(0, 0, 0, 0.7) ;
+
+button:hover {
+    background: rgba(0, 0, 0, 0.7);
 }
 
 /* FIN Header ------------------------ */
 
 /* Nav [Hero Banner]-------------- */
-nav{
+nav {
     margin-top: 8em;
     display: flex;
     flex-direction: column;
@@ -214,16 +217,21 @@ nav{
     height: 50vh;
     background-color: #f8f7f4;
     width: 100%;
-    
+
 }
-nav h1{
+
+nav h1 {
     font-family: 'Source Serif 4-Light';
     font-size: 66px;
     text-align: center;
 }
-nav h2{
-    margin-top: 2em;
+
+nav h2 {
+    margin-top: 3em;
     font-family: 'MonaSans-ExtraLight';
+}
+nav button{
+    margin-top: 2em;
 }
 
 
@@ -231,115 +239,105 @@ nav h2{
 
 /* Article Section -------------------- */
 
-.article-section{
 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-
-}
-
-article section{
-
+article section {
     height: 400px;
     width: 250px;
     margin-left: 20px;
-    background-image: url(../images/UGG-_1080x1512.jpg);
-    background-size: cover;
-    flex-shrink: 0;
-    text-align: center;
-    font-size: 12px;
-    font-family: 'Inter Regular';
-    scroll-snap-align: start;
     border-radius: 12px;
-    padding: 30px;
     box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.4);
-    margin-bottom: 20px;
-
-    line-height: 20px;
 }
 
-article #img1{
+article #img1 {
     background-image: url(../images/img/Streetwear.jpg);
     background-size: cover;
 }
 
-article #img2{
+article #img2 {
     background-image: url(../images/img/ig_\ MarzMadeMe\ \(1\).jpg);
     background-size: cover;
 }
-article #img3{
+
+article #img3 {
     background-image: url(../images/img/azert.jpg);
     background-size: cover;
 }
 
-article #img4{
+article #img4 {
     background-image: url(../images/img/IG\ beamerthekid.jpg);
     background-size: cover;
 }
 
-article #img5{
+article #img5 {
     background-image: url(../images/téléchargement\ \(11\).jpg);
     background-size: cover;
 }
-article #img6{
+
+article #img6 {
     background-image: url(../images/img/ig_\ MarzMadeMe.jpg);
     background-size: cover;
 }
-article #img7{
+
+article #img7 {
     background-image: url(../images/téléchargement\ \(12\).jpg);
     background-size: cover;
 }
-article #img8{
-    background-image: url(../images/img/téléchargement\ \(14\).jpg);
-    background-size: stretch;
-    background-repeat: no-repeat;
+
+article #img8 {
+    background-image: url(../images/irisloveunicorns\ on\ IG.jpg);
+    background-size: cover;
 }
 
-article #img9{
+article #img9 {
     background-image: url(../images/téléchargement\ \(10\).jpg);
     background-size: cover;
 }
-article #img10{
+
+article #img10 {
     background-image: url(../images/img2/Outfit\ 35.jpg);
     background-size: cover;
 }
 
-article #img11{
+article #img11 {
     background-image: url(../images/img2/téléchargement\ \(16\).jpg);
     background-size: cover;
 }
 
-article #img12{
+article #img12 {
     background-image: url(../images/img/téléchargement\ \(13\).jpg);
     background-size: cover;
 }
-article #img13{
+
+article #img13 {
     background-image: url(../images/img2/téléchargement\ \(17\).jpg);
     background-size: cover;
 }
-article #img14{
+
+article #img14 {
     background-image: url(../images/img2/téléchargement\ \(19\).jpg);
     background-size: cover;
 }
-article #img15{
+
+article #img15 {
     background-image: url(../images/img2/téléchargement\ \(18\).jpg);
     background-size: cover;
 }
 
-article #img16{
+article #img16 {
     background-image: url(../images/img2/téléchargement\ \(20\).jpg);
     background-size: cover;
 }
-.article-section section img{
+
+.article-section section img {
     width: 560px;
-    height:400px
+    height: 400px
 }
+
 /* FIN Article Section -------------- */
 
 /* Main [Trouve ta paire de sneakers] ----------------- */
 
-main{
+main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -347,48 +345,56 @@ main{
     width: 100%;
 }
 
-main h2{
+main h2 {
     display: flex;
     justify-content: center;
     margin-top: 5em;
 }
 
-main section{
+main section {
     margin-left: 1em;
     display: flex;
     flex-wrap: wrap;
 }
 
-main section img{
+main section article{
+    margin-bottom: 3em;
+}
+main section img {
     width: 560px;
     height: 400px;
     margin-left: 2em;
     border-radius: 25px;
-    
-    
+
+
 
 }
 
-main section article img:hover{
-    opacity: 50%;  
+main section article img:hover {
+    opacity: 50%;
 }
 
-main section article div{
-    display: flex;
+main section article div {
     justify-content: space-around;
 
 }
-main section article div p{
-    margin-top: 20px;
+
+main section article .text-logo{
+    margin-top: 50px;
 }
-main section article .logo{
+
+main section article .logo-group{
+    margin-left: 20em;
+}
+
+main section article .logo {
     width: 24px;
     height: 24px;
     margin-left: 1em;
-    
+
 }
 
-main .button-main button{
+main .button-main button {
     position: relative;
     margin-top: 5em;
     margin-bottom: 5em;
@@ -396,30 +402,88 @@ main .button-main button{
     padding: 15px 20px 15px 20px;
     width: 185px;
     text-align: center;
-    background: black; 
+    background: black;
     border-radius: 30px;
     border: none;
     font-size: 22px;
+
+}
+
+main .button-main button:hover {
+    background: rgba(0, 0, 0, 0.70);
+
+}
+
+.opacity-on-mouse {
+    opacity: 0;
+    color: rgb(163, 127, 79);
+    transition: opacity 0.3s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    font-size: 75px;
     
+} 
+.opacity-on-mouse:hover {
+    opacity: 1;
 }
 
-main .button-main button:hover{
-    background:rgba(0, 0, 0, 0.70);
+.products article {
+    position: relative;
+} 
 
+/* Aside ----------------*/
+
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+    background: #333533;
 }
+
+aside h2{
+    margin-top: 2em;
+    font-size: 70px;
+}
+
+aside button{
+    margin-top: 10em;
+}
+
+
+/* FIN Aside ------------- */
+
+
 /* Footer--------------- */
 
+
 footer{
+    padding-top: 5em;
     background: #ffda79; 
     width: 100%;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-
-
 footer h2{
-    
+    font-size: 70px;
+}
 
+footer p{
+    font-size: 28px;
+}
+footer #paragraphe1{
+    margin-top: 3em;
+}
+footer #paragraphe2{
+    margin-top: 3em;
+}
+footer p a{
+    text-decoration: underline;
+    color: black;
 }

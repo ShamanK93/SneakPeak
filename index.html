@@ -6,6 +6,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
 </head>
 
 <body>
@@ -15,8 +17,8 @@
         <div class="elementgauche-navbar">
             <a href="index.html">Tendances</a>
             <a href="#lifestyle">Lifestyle</a>
-            <a href="index.html">Bonnes affaires</a>
             <a href="index.html">Explorer</a>
+            <a href="#panier">Panier</a>
             <a href="#apropos">A propos</a>
         </div>
 
@@ -29,14 +31,14 @@
         <form class="search-container" action="//orange.fr">
             <input id="search-box" type="text" class="search-box" name="q" placeholder="Rechercher..." />
             <label for="search-box"><span class="glyphicon glyphicon-search search-icon">
-            </span>
+                </span>
             </label>
-            
+
             <input type="submit" id="search-submit" />
         </form>
-        <img src="images/Loupe.svg">
         
-     
+
+
         <!-- Register - Log in -->
         <li>
             <a href="index.html" id="login">Log in</a>
@@ -55,115 +57,125 @@
 
 
 
-        
+
     </nav>
 
     <!-- Article -> Section -->
 
     <article class="article-section" id="lifestyle">
-        <section id="img1"><!--<img src="images/2002r-protection-pack-rain-cloud-676818.webp">-->  
+        <section id="img1">
         </section>
 
-        <section id="img2"><!--<img src="images/filters_quality(80) (1).webp">-->
+        <section id="img2">
 
-            
+
         </section>
 
-        <section id="img3"><!--<img src="images/2002r-protection-pack-rain-cloud-676818.webp">-->
+        <section id="img3">
 
-            
+
         </section>
 
         <section id="img4">
 
-            
-        </section>
-        <section id="img5"><!--<img src="images/2002r-protection-pack-rain-cloud-676818.webp">-->
 
-            
         </section>
-        <section id="img6"><!--<img src="images/2002r-protection-pack-rain-cloud-676818.webp">-->
+        <section id="img5">
 
-            
+
         </section>
-        <section id="img7"><!--<img src="images/2002r-protection-pack-rain-cloud-676818.webp">-->
+        <section id="img6">
 
-            
+
         </section>
-        <section id="img8"><!--<img src="images/2002r-protection-pack-rain-cloud-676818.webp">-->
+        <section id="img7">
 
-            
+
         </section>
-        <section id="img9"><!--<img src="images/2002r-protection-pack-rain-cloud-676818.webp">-->
+        <section id="img8">
 
-            
+
         </section>
-        <section id="img10"><!--<img src="images/2002r-protection-pack-rain-cloud-676818.webp">-->
+        <section id="img9">
 
-            
+
+        </section>
+        <section id="img10">
+
+
         </section>
 
-        <section id="img11"><!--<img src="images/2002r-protection-pack-rain-cloud-676818.webp">-->
+        <section id="img11">
 
-            
-        </section>
-        <section id="img12"><!--<img src="images/2002r-protection-pack-rain-cloud-676818.webp">-->
 
-            
         </section>
-        <section id="img13"><!--<img src="images/2002r-protection-pack-rain-cloud-676818.webp">-->
+        <section id="img12">
 
-            
-        </section>
-        <section id="img14"><!--<img src="images/2002r-protection-pack-rain-cloud-676818.webp">-->
 
-            
         </section>
-        <section id="img15"><!--<img src="images/2002r-protection-pack-rain-cloud-676818.webp">-->
+        <section id="img13">
 
-            
-        </section>
-        <section id="img16"><!--<img src="images/2002r-protection-pack-rain-cloud-676818.webp">-->
 
-            
         </section>
-        
+        <section id="img14">
+
+
+        </section>
+        <section id="img15">
+
+
+        </section>
+        <section id="img16">
+
+
+        </section>
+
     </article>
 
     <!-- Main [Trouve ta paire de sneakers - Catalogue] -->
 
-    <main>
+    <main class="products">
         <h2>Trouve ta paire de sneakers</h2>
         <section>
-
-            <article><img src="images/img01 (6).avif">
+            <article>
+                <img src="images/img01 (6).avif">
                 <div class="text-logo">
                     <p>Crocs Lightning McQueen</p>
-                    <div class="logo-group">
-                    <img src="images/Favoris.svg" class="logo">
-                    <img src="images/Achat.svg" class="logo">
-                    </div>
-                </div>
-            </article>
-
-            <article><img src="images/img01.avif">
-                <div class="text-logo">
-                    <p>Zoom Vomero 5  Metallic Silver</p>
                     <div class="logo-group">
                         <img src="images/Favoris.svg" class="logo">
                         <img src="images/Achat.svg" class="logo">
                     </div>
                 </div>
+                <div class="opacity-on-mouse">
+                    <p>77 €</p>
+                </div>
+            </article>
+
+            <article>
+                <img src="images/img01.avif">
+                <div class="text-logo">
+                    <p>Zoom Vomero 5 Metallic Silver</p>
+                    <div class="logo-group">
+                        <img src="images/Favoris.svg" class="logo">
+                        <img src="images/Achat.svg" class="logo">
+                    </div>
+                </div>
+                <div class="opacity-on-mouse">
+                    <p>159 €</p>
+                </div>
             </article>
 
             <article><img src="images/img01 (1).avif">
                 <div class="text-logo">
-                <p>Air max 95 Corteiz</p>
-                <div class="logo-group">
-                    <img src="images/Favoris.svg" class="logo">
-                    <img src="images/Achat.svg" class="logo">
+                    <p>Air max 95 Corteiz</p>
+                    <div class="logo-group">
+                        <img src="images/Favoris.svg" class="logo">
+                        <img src="images/Achat.svg" class="logo">
+                    </div>
                 </div>
-            </div>
+                <div class="opacity-on-mouse">
+                    <p>77 €</p>
+                </div>
             </article>
 
             <article><img src="images/img01 (2).avif">
@@ -173,6 +185,9 @@
                         <img src="images/Favoris.svg" class="logo">
                         <img src="images/Achat.svg" class="logo">
                     </div>
+                </div>
+                <div class="opacity-on-mouse">
+                    <p>77 €</p>
                 </div>
             </article>
 
@@ -184,6 +199,9 @@
                         <img src="images/Achat.svg" class="logo">
                     </div>
                 </div>
+                <div class="opacity-on-mouse">
+                    <p>77 €</p>
+                </div>
             </article>
 
             <article><img src="images/img01 (4).avif">
@@ -193,6 +211,9 @@
                         <img src="images/Favoris.svg" class="logo">
                         <img src="images/Achat.svg" class="logo">
                     </div>
+                </div>
+                <div class="opacity-on-mouse">
+                    <p>77 €</p>
                 </div>
             </article>
 
@@ -204,6 +225,9 @@
                         <img src="images/Achat.svg" class="logo">
                     </div>
                 </div>
+                <div class="opacity-on-mouse">
+                    <p>77 €</p>
+                </div>
             </article>
 
             <article><img src="images/Nike-Air-Max-Plus-OG-Voltage-Purple-2024-GS.avif">
@@ -213,6 +237,9 @@
                         <img src="images/Favoris.svg" class="logo">
                         <img src="images/Achat.svg" class="logo">
                     </div>
+                </div>
+                <div class="opacity-on-mouse">
+                    <p>77 €</p>
                 </div>
             </article>
 
@@ -224,6 +251,9 @@
                         <img src="images/Achat.svg" class="logo">
                     </div>
                 </div>
+                <div class="opacity-on-mouse">
+                    <p>77 €</p>
+                </div>
             </article>
 
             <article><img src="images/img01 (8).avif">
@@ -233,6 +263,9 @@
                         <img src="images/Favoris.svg" class="logo">
                         <img src="images/Achat.svg" class="logo">
                     </div>
+                </div>
+                <div class="opacity-on-mouse">
+                    <p>77 €</p>
                 </div>
             </article>
 
@@ -244,6 +277,9 @@
                         <img src="images/Achat.svg" class="logo">
                     </div>
                 </div>
+                <div class="opacity-on-mouse">
+                    <p>77 €</p>
+                </div>
             </article>
 
             <article><img src="images/img01 (10).avif">
@@ -254,6 +290,9 @@
                         <img src="images/Achat.svg" class="logo">
                     </div>
                 </div>
+                <div class="opacity-on-mouse">
+                    <p>77 €</p>
+                </div>
             </article>
 
             <article><img src="images/img01 (11).avif">
@@ -263,6 +302,9 @@
                         <img src="images/Favoris.svg" class="logo">
                         <img src="images/Achat.svg" class="logo">
                     </div>
+                </div>
+                <div class="opacity-on-mouse">
+                    <p>77 €</p>
                 </div>
             </article>
 
@@ -275,6 +317,9 @@
                         <img src="images/Achat.svg" class="logo">
                     </div>
                 </div>
+                <div class="opacity-on-mouse">
+                    <p>77 €</p>
+                </div>
             </article>
 
 
@@ -285,6 +330,9 @@
                         <img src="images/Favoris.svg" class="logo">
                         <img src="images/Achat.svg" class="logo">
                     </div>
+                </div>
+                <div class="opacity-on-mouse">
+                    <p>77 €</p>
                 </div>
             </article>
 
@@ -297,6 +345,9 @@
                         <img src="images/Achat.svg" class="logo">
                     </div>
                 </div>
+                <div class="opacity-on-mouse">
+                    <p>77 €</p>
+                </div>
             </article>
 
 
@@ -307,6 +358,9 @@
                         <img src="images/Favoris.svg" class="logo">
                         <img src="images/Achat.svg" class="logo">
                     </div>
+                </div>
+                <div class="opacity-on-mouse">
+                    <p>77 €</p>
                 </div>
             </article>
 
@@ -319,6 +373,9 @@
                         <img src="images/Achat.svg" class="logo">
                     </div>
                 </div>
+                <div class="opacity-on-mouse">
+                    <p>77 €</p>
+                </div>
             </article>
 
 
@@ -329,6 +386,9 @@
                         <img src="images/Favoris.svg" class="logo">
                         <img src="images/Achat.svg" class="logo">
                     </div>
+                </div>
+                <div class="opacity-on-mouse">
+                    <p>77 €</p>
                 </div>
             </article>
 
@@ -341,6 +401,9 @@
                         <img src="images/Achat.svg" class="logo">
                     </div>
                 </div>
+                <div class="opacity-on-mouse">
+                    <p>77 €</p>
+                </div>
             </article>
             <section class="button-main">
                 <button><a href="index.html">Explorer plus de sneakers</a></button>
@@ -348,23 +411,40 @@
         </section>
     </main>
 
+    <aside>
+        <h2 id="panier">Panier
+        </h2>
+        <button><a href="index.html">Valider la commande</a></button>
+    </aside>
     <!-- Footer -->
 
     <footer>
         <h2 id="apropos">A propos</h2>
-        <p>SneakPeak a pour mission de donner la possibilité à tous les
-           <br>
-           amateurs, les passionnés et les curieux de sneakers et 
-           <br>
-           d'acheter les produits limités qui leur plaisent en toute
-           <br>
-           confiance.
+        <p id="paragraphe1">SneakPeak a pour mission de donner la possibilité à tous les
+            <br>
+            amateurs, les passionnés et les curieux de sneakers et
+            <br>
+            d'acheter les produits limités qui leur plaisent en toute
+            <br>
+            confiance.
         </p>
 
-        <p>Etes-vous aussi passionnés que
-            <br> 
-          nous? Rejoignez SneakPeak</p>
+        <p id="paragraphe2">Etes-vous aussi passionnés que
+            <br>
+            nous? <a href="index.html">Rejoignez SneakPeak</a>
+        </p>
     </footer>
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="js/cart.js"></script>
+    <script>
+        var elem = document.querySelector('.article-section');
+        var flkty = new Flickity(elem, {
+            // options
+            cellAlign: 'left',
+            contain: true
+        });
+    </script>
 </body>
 
 </html>
